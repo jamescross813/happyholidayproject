@@ -11,3 +11,6 @@ def christmastree():
 
 def seasongreeting():
     print("Season's Greetings")
+
+def getname(name):
+    
