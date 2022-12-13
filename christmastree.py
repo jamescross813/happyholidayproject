@@ -9,3 +9,5 @@ def christmastree():
     print("     | |     ")
     print("    |___|    ")
 
+def seasongreeting():
+    print("Season's Greetings")
