@@ -13,4 +13,4 @@ def seasongreeting():
     print("Season's Greetings")
 
 def getname(name):
-    
+    name = input("what is your name?")
