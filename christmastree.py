@@ -15,8 +15,9 @@ def seasongreeting():
 def thingstosay(talk):
     print(talk)
 
-def getname(name):
+def getname():
     name = input("what is your name?")
 
 christmastree()
 seasongreeting()
+getname()
