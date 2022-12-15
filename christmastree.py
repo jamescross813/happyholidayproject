@@ -19,3 +19,4 @@ def getname(name):
     name = input("what is your name?")
 
 christmastree()
+seasongreeting()
