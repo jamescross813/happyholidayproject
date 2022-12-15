@@ -17,3 +17,5 @@ def thingstosay(talk):
 
 def getname(name):
     name = input("what is your name?")
+
+christmastree()
