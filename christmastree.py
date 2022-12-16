@@ -22,3 +22,4 @@ def hohohofunction():
     christmastree()
     seasongreeting()
     nameis = getname()
+    thingstosay(nameis)
