@@ -23,3 +23,5 @@ def hohohofunction():
     seasongreeting()
     nameis = getname()
     thingstosay(nameis)
+
+hohohofunction()
