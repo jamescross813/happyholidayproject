@@ -17,6 +17,7 @@ def thingstosay(talk):
 
 def getname():
     name = input("what is your name?")
+    print(name)
 
 def hohohofunction():
     christmastree()
