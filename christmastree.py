@@ -23,7 +23,7 @@ def hohohofunction():
     christmastree()
     seasongreeting()
     nameis = getname()
-    print(nameis)
-    # thingstosay(nameis)
+    # print(nameis)
+    thingstosay("hello " + nameis)
 
 hohohofunction()
