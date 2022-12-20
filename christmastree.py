@@ -10,6 +10,7 @@ def christmastree():
     print("    |___|    ")
 
 def seasongreeting():
+    greetings = ["Season's Greetings", "Happy Holidays", "Felicioutous Festivities"]
     print("Season's Greetings")
 
 def thingstosay(talk):
