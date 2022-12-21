@@ -11,7 +11,7 @@ def christmastree():
 
 def seasongreeting():
     greetings = ["Season's Greetings", "Happy Holidays", "Felicioutous Festivities"]
-    print("Season's Greetings")
+    print(greetings[1])
 
 def thingstosay(talk):
     print(talk)
