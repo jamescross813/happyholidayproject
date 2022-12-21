@@ -1,3 +1,4 @@
+import random
 def christmastree():
     print("      ^      ")
     print("     / \     ")
@@ -11,6 +12,7 @@ def christmastree():
 
 def seasongreeting():
     greetings = ["Season's Greetings", "Happy Holidays", "Felicioutous Festivities"]
+    
     print(greetings[1])
 
 def thingstosay(talk):
