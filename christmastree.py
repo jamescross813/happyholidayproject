@@ -12,9 +12,8 @@ def christmastree():
 
 def seasongreeting():
     greetings = ["Season's Greetings", "Happy Holidays", "Felicioutous Festivities"]
-    rand = random.randint(0,3)
-    print(rand)
-    print(greetings[1])
+    rand = random.randint(0,2)
+    print(greetings[rand])
 
 def thingstosay(talk):
     print(talk)
