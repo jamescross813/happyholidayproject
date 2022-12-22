@@ -1,2 +1,2 @@
 class Speech:
-    pass
+    greetings = ["Season's Greetings", "Happy Holidays", "Felicioutous Festivities"]
