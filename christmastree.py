@@ -1,33 +1,33 @@
 import random
-class ChristmasTree:
-    def christmastree():
-        print("      ^      ")
-        print("     / \     ")
-        print("    /___\    ")
-        print("   /     \   ")
-        print("  /_______\  ")
-        print("  /       \  ")
-        print(" /_________\ ")
-        print("     | |     ")
-        print("    |___|    ")
 
-    def seasongreeting():
-        greetings = ["Season's Greetings", "Happy Holidays", "Felicioutous Festivities"]
-        rand = random.randint(0,2)
-        print(greetings[rand])
+def christmastree():
+    print("      ^      ")
+    print("     / \     ")
+    print("    /___\    ")
+    print("   /     \   ")
+    print("  /_______\  ")
+    print("  /       \  ")
+    print(" /_________\ ")
+    print("     | |     ")
+    print("    |___|    ")
 
-    def thingstosay(talk):
-        print(talk)
+def seasongreeting():
+    greetings = ["Season's Greetings", "Happy Holidays", "Felicioutous Festivities"]
+    rand = random.randint(0,2)
+    print(greetings[rand])
 
-    def getname():
-        name = input("what is your name?")
-        return name
+def thingstosay(talk):
+    print(talk)
 
-    def hohohofunction():
-        christmastree()
-        seasongreeting()
-        nameis = getname()
-        # print(nameis)
-        thingstosay("hello " + nameis)
+def getname():
+    name = input("what is your name?")
+    return name
 
-    hohohofunction()
+def hohohofunction():
+    christmastree()
+    seasongreeting()
+    nameis = getname()
+    # print(nameis)
+    thingstosay("hello " + nameis)
+
+hohohofunction()
