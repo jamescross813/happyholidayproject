@@ -1,3 +1,4 @@
+import random
 class Greeting:
     greetings = ["Season's Greetings", 
         "Happy Holidays", 
