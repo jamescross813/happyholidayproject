@@ -6,4 +6,4 @@ class Greeting:
 
     def seasongreeting():
         rand = random.randint(0,2)
-        print(greetings[rand])
+        print(Greeting.greetings[rand])
