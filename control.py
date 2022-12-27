@@ -1,7 +1,7 @@
-from Python.happyholidayproject.tree import Tree
+from happyholidayproject.tree import Tree
 
 class Control(Tree):
-    Tree.printchristmastree
+    Tree.printchristmastree()
 
 # want to call christmas tree print function
 # want to call get name function
