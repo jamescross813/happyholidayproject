@@ -1,4 +1,4 @@
-from happyholidayproject.tree import Tree
+from tree import Tree
 
 class Control(Tree):
     Tree.printchristmastree()
