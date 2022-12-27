@@ -8,5 +8,5 @@ class Greeting:
 
     def seasongreeting():
         rand = random.randint(0,2)
-        
+        username = User.name
         print(Greeting.greetings[rand] + username +"!")
