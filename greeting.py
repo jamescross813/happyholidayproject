@@ -4,6 +4,6 @@ class Greeting:
         "Happy Holidays", 
         "Felicioutous Festivities"]
 
-    def seasongreeting():
+    def seasongreeting(name):
         rand = random.randint(0,2)
-        print(Greeting.greetings[rand])
+        print(Greeting.greetings[rand] + name +"!")
