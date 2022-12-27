@@ -1,5 +1,6 @@
+from Python.happyholidayproject.tree import Tree
 
-class Control:
+class Control(Tree):
     pass
 
 # want to call christmas tree print function
