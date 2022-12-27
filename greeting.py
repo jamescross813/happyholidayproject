@@ -1,9 +1,12 @@
 import random
+from user import User
+
 class Greeting:
     greetings = ["Season's Greetings", 
         "Happy Holidays", 
         "Felicioutous Festivities"]
 
-    def seasongreeting(name):
+    def seasongreeting():
         rand = random.randint(0,2)
-        print(Greeting.greetings[rand] + name +"!")
+        
+        print(Greeting.greetings[rand] + username +"!")
