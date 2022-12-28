@@ -8,7 +8,7 @@ Will use python to:
 >give a random holiday response to user
 >oop class
 use oop to create program:
-    objects
+    >objects
     objects with realtionships
 command line interface
 # happy-holidays
