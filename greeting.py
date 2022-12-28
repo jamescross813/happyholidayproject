@@ -12,6 +12,6 @@ class Greeting:
         "Glad Tidings"]
 
     def seasongreeting():
-        rand = random.randint(0,2)
+        rand = random.randint(0,7)
         username = User.name
         print(Greeting.greetings[rand] + " " + username +"!")
