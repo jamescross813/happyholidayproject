@@ -4,6 +4,7 @@ import argparse
 # create a parser object
 parser = argparse.ArgumentParser(description = "An addition program")
 
+parser.add_argument()
 # add argument
 # parser.add_argument("add", nargs = '*', metavar = "num", type = int,
 # 					help = "All the numbers separated by spaces will be added.")
