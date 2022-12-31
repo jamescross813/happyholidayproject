@@ -9,6 +9,6 @@ Will use python to:
 >oop class
 use oop to create program:
     >objects
-    objects with realtionships
+    objects with realtionships?
 command line interface
 # happy-holidays
