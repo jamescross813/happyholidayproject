@@ -10,5 +10,7 @@ Will use python to:
 use oop to create program:
     >objects
     objects with realtionships?
-command line interface
+>command line interface
+>increase functionality -check for naughty/nice
+                        -give corresponding present
 # happy-holidays
