@@ -1,2 +1,3 @@
 class Checker:
-    pass
+    def check_naughty_nice(ans):
+        
