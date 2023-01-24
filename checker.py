@@ -8,8 +8,10 @@ class Checker:
 
     def check_naughty_nice(self):
         if self.state.lower() =="nice":
+            print("good job!")
             return True
         elif self.state.lower() == "naughty":
+            print("uh oh")
             return False
         else:
             print("Error with answer. Use Naughty or Nice only.")
