@@ -1,5 +1,6 @@
 class Checker:
-    
+    def __init__(self, state):
+        self.state = state
 
     def ask_question(self):
         self.state = input("Have you been Naughty or Nice?")
