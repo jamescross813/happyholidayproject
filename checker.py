@@ -15,4 +15,4 @@ class Checker:
             return False
         else:
             print("Error with answer. Use Naughty or Nice only.")
-            return self.ask_question()
+            return self.ask_question(self)
