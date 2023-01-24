@@ -7,7 +7,7 @@ class Control(Tree):
     Tree.printchristmastree()
     User.getname(User)
     Greeting.seasongreeting()
-    Checker.ask_question()
+    Checker.ask_question(Checker)
 # want to call christmas tree print function
 # want to call get name function
 # want to call season greeting function
