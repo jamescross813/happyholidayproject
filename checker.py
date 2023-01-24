@@ -6,7 +6,7 @@ class Checker:
         self.state = input("Have you been Naughty or Nice?")
         return self.state
 
-    def check_naughty_nice(ans):
-        if ans=="yes":
+    def check_naughty_nice(self):
+        if self.state.lower() =="nice":
             return True
         return False
