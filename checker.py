@@ -14,3 +14,9 @@ class Checker:
         else:
             print("Error with answer. Use Naughty or Nice only.")
             return self.ask_question(self)
+
+    def gift(bool):
+        if bool==False:
+            return "lump of coal"
+        else:
+            return "good present"
