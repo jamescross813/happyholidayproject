@@ -1,6 +1,7 @@
 class Checker:
-    def __init__(self, behave):
+    def __init__(self, behave, presents):
         self.behave = behave
+        self.presents =["doll", "car", "ball", "orange"]
 
     def ask_question(self):
         self.behave = input("Have you been Naughty or Nice?")
