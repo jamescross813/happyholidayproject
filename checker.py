@@ -1,3 +1,4 @@
+import random
 class Checker:
     def __init__(self, behave, presents):
         self.behave = behave
@@ -16,8 +17,10 @@ class Checker:
             print("Error with answer. Use Naughty or Nice only.")
             return self.ask_question(self)
 
-    def gift(bool):
+    def gift(bool, self):
         if bool==False:
             return "lump of coal"
         else:
+            rand = random.randint(0,7)
+
             return "good present"
