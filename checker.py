@@ -21,6 +21,5 @@ class Checker:
         if bool==False:
             return "lump of coal"
         else:
-            rand = random.randint(0,7)
-
-            return "good present"
+            rand = random.randint(0,3)
+            return self.present[rand]
