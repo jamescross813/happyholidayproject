@@ -21,5 +21,6 @@ class Checker:
         if bool==False:
             return "lump of coal"
         else:
-            rand = random.randint(0,3)
+            end = len(self.present)-1
+            rand = random.randint(0,end)
             return self.present[rand]
