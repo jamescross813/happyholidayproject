@@ -23,4 +23,4 @@ class Checker:
         else:
             end = len(self.present)-1
             rand = random.randint(0,end)
-            return self.present[rand]
+            return "Your gift this year is: " + self.present[rand]
