@@ -1,4 +1,5 @@
 import random
+from gift import Gift
 class Checker:
     def __init__(self, behave, presents):
         self.behave = behave
