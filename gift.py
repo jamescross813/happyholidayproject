@@ -1,7 +1,7 @@
 import random
 class Gift:
     def __init__(self, presents):
-        self.presents =["doll", "car", "ball", "orange"]
+        self.presents =["doll", "car", "ball", "orange", "board game", "paints"]
 
     def gift(bool, self):
             if bool==False:
