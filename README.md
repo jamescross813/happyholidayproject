@@ -9,8 +9,8 @@ Will use python to:
 >oop class
 use oop to create program:
     >objects
-    objects with realtionships?
 >command line interface
->increase functionality -check for naughty/nice
-                        -give corresponding present
+>increase functionality:
+    >check for naughty/nice
+    >give corresponding present
 # happy-holidays
