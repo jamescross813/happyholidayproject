@@ -1,16 +1,12 @@
 # happy-holidays
 Python basics Holiday themed project. 
 
-Will use python to:
-
-> draw a tree
->give holiday response to user
->give a random holiday response to user
->oop class
-use oop to create program:
-    >objects
->command line interface
->increase functionality:
-    >check for naughty/nice
-    >give corresponding present
+This project utilises python to:
+> draw a holiday tree
+> give a holiday themed greeting to the user from a list of possibilities
+> includes oop classes
+> provides a basic command line interface for user to interact with
+> increased functionality includes:
+    >checking if user is naughty/nice
+    >providing user with a corresponding present
 # happy-holidays
