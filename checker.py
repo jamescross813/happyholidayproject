@@ -11,9 +11,9 @@ class Checker:
 
     def check_naughty_nice(self, behave):
         if behave.lower() =="nice":
-            return Gift.gift(True)
+            return Gift.gift(self, True)
         elif behave.lower() == "naughty":
-            return Gift.gift(False)
+            return Gift.gift(self, False)
         else:
             print("Error with answer. Use Naughty or Nice only.")
             return self.ask_question(self)
