@@ -8,4 +8,4 @@ class Gift:
             else:
                 end = len(Gift.presents)-1
                 rand = random.randint(0,end)
-                return "Your gift this year is: " + self.present[rand]
+                return "Your gift this year is: " + Gift.present[rand]
