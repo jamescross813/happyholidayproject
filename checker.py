@@ -1,22 +1,22 @@
 import random
 from gift import Gift
 class Checker:
-    def __init__(self, behave, presents):
+    def __init__(self, behave):
         self.behave = behave
         # self.presents =["doll", "car", "ball", "orange"]
 
     def ask_question(self):
         self.behave = input("Have you been Naughty or Nice?")
-        return self.check_naughty_nice(self, self.behave)
+        return self.check_naughty_nice(self.behave)
 
-    def check_naughty_nice(self, behave):
+    def check_naughty_nice(behave):
         if behave.lower() =="nice":
-            return Gift.gift(True, self)
+            return Gift.gift(True)
         elif behave.lower() == "naughty":
-            return Gift.gift(False, self)
+            return Gift.gift(False)
         else:
             print("Error with answer. Use Naughty or Nice only.")
-            return self.ask_question(self)
+            return Checker.ask_question(Checker)
 
     # def gift(bool, self):
     #     if bool==False:
