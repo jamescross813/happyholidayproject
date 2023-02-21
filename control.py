@@ -5,7 +5,7 @@ from checker import Checker
 
 class Control():
     Tree.printchristmastree
-    User.getname(User)
+    User.getname
     Greeting.seasongreeting()
     print(Checker.ask_question(Checker))
 # want to call christmas tree print function
