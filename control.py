@@ -4,7 +4,7 @@ from greeting import Greeting
 from checker import Checker
 
 class Control():
-    Tree.printchristmastree()
+    Tree.printchristmastree
     User.getname(User)
     Greeting.seasongreeting()
     print(Checker.ask_question(Checker))

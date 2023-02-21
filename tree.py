@@ -1,4 +1,5 @@
 class Tree:
+
     def printchristmastree():
         print("      ^      ")
         print("     / \     ")
