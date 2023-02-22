@@ -4,7 +4,7 @@ class Gift:
 
     def gift(bool):
             if bool==False:
-                return "lump of coal"
+                print("Your gift this year is: a lump of coal")
             else:
                 end = len(Gift.presents)-1
                 rand = random.randint(0,end)
