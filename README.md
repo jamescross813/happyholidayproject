@@ -1,6 +1,6 @@
 # happy-holidays
 Python basics Holiday themed project. 
-//run with run command works
+-run with run command works
 //run with command line wip
 This project utilises python to:
 > draw a holiday tree
